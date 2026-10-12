@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-12T15:03:03 IST" name="Default suite" finished-at="2026-10-12T15:03:58 IST" duration-ms="55033">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-12T15:03:03 IST" name="Default test" finished-at="2026-10-12T15:03:58 IST" duration-ms="55033">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:03 IST" name="setUpClass" finished-at="2026-10-12T15:03:04 IST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@18ca3c62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:39 IST" duration-ms="35548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search institute by institute name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Institute Moderation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:41 IST" duration-ms="36905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Course moderation invalid course search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Course Moderation Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:39 IST" duration-ms="35173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search institute by institute name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Institute Moderation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:56 IST" duration-ms="52349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify course moderation status and filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Course Moderation Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:51 IST" duration-ms="46886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Audit trail log query and status filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Audit Trail Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:35 IST" duration-ms="30641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify dashboard card navigation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dashboard Navigation and Metric Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:47 IST" duration-ms="42693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify coupon code search and filtering"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Coupon Approval Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:50 IST" duration-ms="45580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Audit trail log query and status filters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Audit Trail Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:52 IST" duration-ms="47683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify course moderation status and filter"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Course Moderation Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:40 IST" duration-ms="35594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify coupon code search and filtering"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Coupon Approval Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:50 IST" duration-ms="15071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search institute by place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Institute Moderation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:50 IST" duration-ms="10753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search institute by place"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Institute Moderation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:55 IST" duration-ms="15073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify recording and disbursing settlements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Merchant Payouts Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:58 IST" duration-ms="18854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify recording and disbursing settlements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Merchant Payouts Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T15:03:54 IST" duration-ms="13311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify refund claim page navigation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Corzaar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@f1da57d]" started-at="2026-10-12T15:03:58 IST" name="tearDownClass" finished-at="2026-10-12T15:03:58 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
